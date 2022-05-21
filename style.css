@@ -1,0 +1,177 @@
+body {
+    /* background-color: rgb(42, 42, 73); */
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+
+}
+
+
+header {
+    background-color: rgb(42, 42, 73);
+}
+
+nav {
+    color: white;
+}
+
+li {
+    color: white;
+    list-style: none;
+    
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 500px;
+    border-radius: 7px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(42, 42, 73);
+}
+
+button {
+    border-radius: 5rem;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #4eb5f1;
+    border: none;
+
+}
+
+
+.container {
+    /* border: 2px solid coral; */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nav_container {
+    /* border: 1px solid white; */
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
+
+.nav_item {
+    margin-right: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main_container {
+    /* border: 1px solid coral; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 42, 73);
+}
+
+.hero_container {
+    /* border: 1px solid white; */
+    width: 75%;
+    display: flex;
+}
+
+.hero_side_one {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.hero_side_two {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding: 5rem;
+    padding-right: 0;
+}
+
+.box_container {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+}
+
+.section_container {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imgbox {
+    border: 2px solid coral;
+    width: 70%;
+    height: 55%;
+    border-radius: 5px;
+}
+
+.img_text_under {
+    width: 65%;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.testimonial_container {
+    background-color: lightgrey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpspiring_text {
+    width: 50%;
+    display: flex;
+}
+
+.text_testimonial {
+    width: 50%;
+}
+
+.footer_container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    color: white;
+}
