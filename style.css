@@ -48,6 +48,14 @@ button {
 
 }
 
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: larger;
+}
+
 
 .container {
     /* border: 2px solid coral; */
@@ -138,14 +146,14 @@ button {
 .imgbox {
     border: 2px solid coral;
     width: 70%;
-    height: 55%;
+    height: 100%;
     border-radius: 5px;
 }
 
 .img_text_under {
     width: 65%;
     overflow: hidden;
-    font-size: 12px;
+    
 }
 
 .testimonial_container {
