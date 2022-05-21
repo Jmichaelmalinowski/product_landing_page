@@ -107,6 +107,7 @@ h1 {
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    color: white;
 }
 .hero_side_two {
     display: flex;
